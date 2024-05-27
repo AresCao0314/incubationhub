@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: rgb(0, 228, 124);
+            color: rgb(8, 49, 42);
+            text-align: center;
+        }
+        #logo {
+            font-size: 2em;
+        }
+        #question-list {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="logo">Global CD&O DT CoE Incubation Hub</div>
+    <h1>Clinical Trial Copilot</h1>
+    <div>
+        <label for="question-input">Ask a question:</label>
+        <input type="text" id="question-input">
+        <button onclick="submitQuestion()">Submit</button>
+    </div>
+    <div>
+        <h2>Recommended questions:</h2>
+        <ul id="question-list">
+            <li>Question 1</li>
+            <li>Question 2</li>
+            <li>Question 3</li>
+        </ul>
+    </div>
+    <div>
+        <h2>Response:</h2>
+        <textarea id="response-output" readonly></textarea>
+    </div>
+    <div>
+        <h2>Source of answer:</h2>
+        <p id="source-output"></p>
+    </div>
+<!--     <div id="flowchart">
+        <img src="flowchart.png" alt="Flowchart showing the process from Site Investigator to CTM to Physician">
+    </div> -->
+    <script>
+        function submitQuestion() {
+            // Here you can add the logic to submit the question to your language model
+            // and update the response and source fields accordingly
+        }
+    </script>
+</body>
+</html>
